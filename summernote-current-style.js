@@ -16,11 +16,13 @@
       this.events = {
         'summernote.mousedown': function (we, e) {
           var node = e.target.nodeName.toLowerCase();
+          console.log(node);
           e.stopPropagation();
-          // Old list
+          // Remove active class from old list
           $editor.find('.dropdown-style .dropdown-item').removeClass('active');
-          // New list
+          // Remove active class from new list
           $editor.find('.dropdown-style li').removeClass('active');
+          // Add active class to current style
           $editor.find('.dropdown-style [aria-label="' + node + '"]').addClass('active');
         }
       }
