@@ -1,4 +1,4 @@
-/*! summernote-current-style v1.0.4 */
+/*! summernote-current-style v1.0.5 */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory);
@@ -16,7 +16,6 @@
       this.events = {
         'summernote.mousedown': function (we, e) {
           var node = e.target.nodeName.toLowerCase();
-          console.log(node);
           e.stopPropagation();
           // Remove active class from old list
           $editor.find('.dropdown-style .dropdown-item').removeClass('active');
