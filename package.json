@@ -1,0 +1,19 @@
+{
+  "name": "@arnaudlevy/summernote-current-style",
+  "version": "1.0.0",
+  "description": "A plugin for the [Summernote](https://github.com/summernote/summernote/) WYSIWYG editor.",
+  "main": "summernote-current-style.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaudlevy/summernote-current-style.git"
+  },
+  "author": "Arnaud Levy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnaudlevy/summernote-current-style/issues"
+  },
+  "homepage": "https://github.com/arnaudlevy/summernote-current-style#readme"
+}

@@ -1,4 +1,4 @@
-/*! summernote-current-style v0.1 */
+/*! summernote-current-style v1.0.0 */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory);
