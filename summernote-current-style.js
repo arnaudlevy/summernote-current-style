@@ -1,4 +1,4 @@
-/*! summernote-current-style v1.0.1 */
+/*! summernote-current-style v1.0.2 */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory);
@@ -18,6 +18,9 @@
           e.stopPropagation();
           var el = e.target,
               node = el.nodeName.toLowerCase();
+          // Old list
+          $editor.find('.dropdown-style .dropdown-item').removeClass('active');
+          // New list
           $editor.find('.dropdown-style li').removeClass('active');
           $editor.find('.dropdown-style [aria-label="' + node + '"]').addClass('active');
         }
