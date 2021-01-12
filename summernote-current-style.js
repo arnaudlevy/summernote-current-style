@@ -1,4 +1,4 @@
-/*! summernote-current-style v1.0.2 */
+/*! summernote-current-style v1.0.3 */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory);
@@ -15,7 +15,6 @@
           $editor = context.layoutInfo.editor;
       this.events = {
         'summernote.mousedown': function (we, e) {
-          e.stopPropagation();
           var el = e.target,
               node = el.nodeName.toLowerCase();
           // Old list
