@@ -1,11 +1,8 @@
 {
-  "name": "@arnaudlevy/summernote-current-style",
+  "name": "summernote-current-style",
   "version": "1.0.0",
-  "description": "A plugin for the [Summernote](https://github.com/summernote/summernote/) WYSIWYG editor.",
+  "description": "A plugin for the Summernote WYSIWYG editor, that adds an \"active\" class to the current style in the dropdown",
   "main": "summernote-current-style.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arnaudlevy/summernote-current-style.git"
@@ -15,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/arnaudlevy/summernote-current-style/issues"
   },
-  "homepage": "https://github.com/arnaudlevy/summernote-current-style#readme"
+  "homepage": "https://github.com/arnaudlevy/summernote-current-style#readme",
+  "dependencies": {
+    "summernote": "^0.8.2"
+  }
 }
