@@ -1,4 +1,4 @@
-/*! summernote-current-style v1.0.3 */
+/*! summernote-current-style v1.0.4 */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory);
@@ -15,8 +15,8 @@
           $editor = context.layoutInfo.editor;
       this.events = {
         'summernote.mousedown': function (we, e) {
-          var el = e.target,
-              node = el.nodeName.toLowerCase();
+          var node = e.target.nodeName.toLowerCase();
+          e.stopPropagation();
           // Old list
           $editor.find('.dropdown-style .dropdown-item').removeClass('active');
           // New list
