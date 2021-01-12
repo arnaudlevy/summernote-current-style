@@ -1,6 +1,6 @@
 {
   "name": "summernote-current-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for the Summernote WYSIWYG editor, that adds an \"active\" class to the current style in the dropdown",
   "main": "summernote-current-style.js",
   "repository": {
@@ -12,8 +12,5 @@
   "bugs": {
     "url": "https://github.com/arnaudlevy/summernote-current-style/issues"
   },
-  "homepage": "https://github.com/arnaudlevy/summernote-current-style#readme",
-  "dependencies": {
-    "summernote": "^0.8.2"
-  }
+  "homepage": "https://github.com/arnaudlevy/summernote-current-style#readme"
 }
